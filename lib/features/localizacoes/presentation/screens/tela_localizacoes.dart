@@ -99,7 +99,19 @@ class _TelaLocalizacoesState extends State<TelaLocalizacoes> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Histórico de Localizações'),
+        title: Column(
+          children: [
+            const Text('Histórico', style: TextStyle(fontSize: 18)),
+            Text(
+              '${_localizacoes.length} de 100 registros',
+              style: const TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+          ],
+        ),
+        centerTitle: true,
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
