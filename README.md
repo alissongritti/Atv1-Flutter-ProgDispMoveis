@@ -4,7 +4,7 @@ Projeto desenvolvido para a disciplina de **Programação para Dispositivos Móv
 
 ## 👤 Autor
 * **Nome:** Alisson Franco Gritti
-* **RA:** 2581392423015
+* **Nome:** João Pedro Souza dos Anjos
 
 ---
 
